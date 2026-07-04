@@ -1,0 +1,19 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - heading "Kiko Match Marking Board" [level=1] [ref=f3e5]
+  - generic [ref=f3e6]:
+    - paragraph [ref=f3e7]: Choose your board size
+    - generic [ref=f3e8]:
+      - button "4x4 16 cards" [ref=f3e9] [cursor=pointer]:
+        - generic [ref=f3e10]: 4x4
+        - generic [ref=f3e11]: 16 cards
+      - button "4x5 20 cards" [ref=f3e12] [cursor=pointer]:
+        - generic [ref=f3e13]: 4x5
+        - generic [ref=f3e14]: 20 cards
+      - button "5x6 30 cards" [ref=f3e15] [cursor=pointer]:
+        - generic [ref=f3e16]: 5x6
+        - generic [ref=f3e17]: 30 cards
+      - button "6x6 36 cards" [ref=f3e18] [cursor=pointer]:
+        - generic [ref=f3e19]: 6x6
+        - generic [ref=f3e20]: 36 cards
+  - contentinfo [ref=f3e21]: Kiko images from Neopets · game data from Jellyneo · a marking aid, not affiliated

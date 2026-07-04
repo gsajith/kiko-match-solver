@@ -23,8 +23,12 @@ export default function Board({ size, onExit }: Props) {
 
   const clearBoard = () => setCells(Array(total).fill(""));
 
+  const filled = cells.filter(Boolean).length;
+
   return (
     <section className="board-screen">
+      <h2 className="board-title">{size.label}</h2>
+
       <div className="toolbar">
         <button
           className="tool-btn tool-back"
@@ -35,11 +39,12 @@ export default function Board({ size, onExit }: Props) {
           ✕
         </button>
 
-        <span className="toolbar-title">{size.label}</span>
-
-        <button className="tool-btn" onClick={clearBoard}>
-          Clear board
-        </button>
+        <span className="toolbar-stat">
+          <span className="toolbar-stat-label">Marked</span>
+          <span className="toolbar-stat-value">
+            {filled}/{total}
+          </span>
+        </span>
 
         <label className="toggle">
           <input
@@ -49,20 +54,26 @@ export default function Board({ size, onExit }: Props) {
           />
           <span>Show images</span>
         </label>
+
+        <button className="tool-btn" onClick={clearBoard}>
+          Clear board
+        </button>
       </div>
 
-      <div
-        className="board-grid"
-        style={{ gridTemplateColumns: `repeat(${size.cols}, 1fr)` }}
-      >
-        {cells.map((id, i) => (
-          <KikoCell
-            key={i}
-            value={id}
-            showImage={showImages}
-            onChange={(newId) => setCell(i, newId)}
-          />
-        ))}
+      <div className="board-panel">
+        <div
+          className="board-grid"
+          style={{ gridTemplateColumns: `repeat(${size.cols}, 1fr)` }}
+        >
+          {cells.map((id, i) => (
+            <KikoCell
+              key={i}
+              value={id}
+              showImage={showImages}
+              onChange={(newId) => setCell(i, newId)}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

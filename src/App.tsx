@@ -27,7 +27,19 @@ export default function App() {
       )}
 
       <footer className="app-footer">
-        Kiko images from Neopets · game data from Jellyneo · a marking aid, not affiliated
+        <div>
+          Kiko images from Neopets · game data from Jellyneo · a marking aid, not affiliated
+        </div>
+        <div>
+          <a
+            className="footer-link"
+            href="https://github.com/gsajith/kiko-match-solver"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub
+          </a>
+        </div>
       </footer>
     </div>
   );

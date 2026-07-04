@@ -1,0 +1,188 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - heading "Kiko Match Marking Board" [level=1] [ref=f3e5]
+  - generic [ref=f3e22]:
+    - heading "4x4" [level=2] [ref=f3e23]
+    - generic [ref=f3e24]:
+      - button "Back to board size selection" [ref=f3e25] [cursor=pointer]: ✕
+      - generic [ref=f3e26]:
+        - generic [ref=f3e27]: Marked
+        - generic [ref=f3e28]: 0/16
+      - generic [ref=f3e29] [cursor=pointer]:
+        - checkbox "Show images" [checked] [ref=f3e30]
+        - generic [ref=f3e31]: Show images
+      - button "Clear board" [ref=f3e32] [cursor=pointer]
+    - generic [ref=f3e34]:
+      - generic [ref=f3e35]:
+        - button "?" [ref=f3e36] [cursor=pointer]:
+          - generic [ref=f3e37]: "?"
+        - generic [ref=f3e83]:
+          - textbox "Search 68 colors…" [active] [ref=f3e85]
+          - generic [ref=f3e86]:
+            - button "Chocolate" [ref=f3e87] [cursor=pointer]:
+              - generic [ref=f3e88]: Chocolate
+            - button "Woodland" [ref=f3e89] [cursor=pointer]:
+              - generic [ref=f3e90]: Woodland
+            - button "Coconut" [ref=f3e91] [cursor=pointer]:
+              - generic [ref=f3e92]: Coconut
+            - button "Burlap" [ref=f3e93] [cursor=pointer]:
+              - generic [ref=f3e94]: Burlap
+            - button "Brown" [ref=f3e95] [cursor=pointer]:
+              - generic [ref=f3e96]: Brown
+            - button "Clay" [ref=f3e97] [cursor=pointer]:
+              - generic [ref=f3e98]: Clay
+            - button "Biscuit" [ref=f3e99] [cursor=pointer]:
+              - generic [ref=f3e100]: Biscuit
+            - button "Tyrannian" [ref=f3e101] [cursor=pointer]:
+              - generic [ref=f3e102]: Tyrannian
+            - button "Desert" [ref=f3e103] [cursor=pointer]:
+              - generic [ref=f3e104]: Desert
+            - button "Spotted" [ref=f3e105] [cursor=pointer]:
+              - generic [ref=f3e106]: Spotted
+            - button "Yellow" [ref=f3e107] [cursor=pointer]:
+              - generic [ref=f3e108]: Yellow
+            - button "Gold" [ref=f3e109] [cursor=pointer]:
+              - generic [ref=f3e110]: Gold
+            - button "Dimensional" [ref=f3e111] [cursor=pointer]:
+              - generic [ref=f3e112]: Dimensional
+            - button "Jelly" [ref=f3e113] [cursor=pointer]:
+              - generic [ref=f3e114]: Jelly
+            - button "Halloween" [ref=f3e115] [cursor=pointer]:
+              - generic [ref=f3e116]: Halloween
+            - button "Orange" [ref=f3e117] [cursor=pointer]:
+              - generic [ref=f3e118]: Orange
+            - button "Split" [ref=f3e119] [cursor=pointer]:
+              - generic [ref=f3e120]: Split
+            - button "Faerie" [ref=f3e121] [cursor=pointer]:
+              - generic [ref=f3e122]: Faerie
+            - button "Purple" [ref=f3e123] [cursor=pointer]:
+              - generic [ref=f3e124]: Purple
+            - button "Darigan" [ref=f3e125] [cursor=pointer]:
+              - generic [ref=f3e126]: Darigan
+            - button "Wraith" [ref=f3e127] [cursor=pointer]:
+              - generic [ref=f3e128]: Wraith
+            - button "Magma" [ref=f3e129] [cursor=pointer]:
+              - generic [ref=f3e130]: Magma
+            - button "Fire" [ref=f3e131] [cursor=pointer]:
+              - generic [ref=f3e132]: Fire
+            - button "Shadow" [ref=f3e133] [cursor=pointer]:
+              - generic [ref=f3e134]: Shadow
+            - button "Skunk" [ref=f3e135] [cursor=pointer]:
+              - generic [ref=f3e136]: Skunk
+            - button "Grey" [ref=f3e137] [cursor=pointer]:
+              - generic [ref=f3e138]: Grey
+            - button "Mutant" [ref=f3e139] [cursor=pointer]:
+              - generic [ref=f3e140]: Mutant
+            - button "Pirate" [ref=f3e141] [cursor=pointer]:
+              - generic [ref=f3e142]: Pirate
+            - button "Blue" [ref=f3e143] [cursor=pointer]:
+              - generic [ref=f3e144]: Blue
+            - button "Camouflage" [ref=f3e145] [cursor=pointer]:
+              - generic [ref=f3e146]: Camouflage
+            - button "Chokato" [ref=f3e147] [cursor=pointer]:
+              - generic [ref=f3e148]: Chokato
+            - button "Starry" [ref=f3e149] [cursor=pointer]:
+              - generic [ref=f3e150]: Starry
+            - button "Electric" [ref=f3e151] [cursor=pointer]:
+              - generic [ref=f3e152]: Electric
+            - button "Speckled" [ref=f3e153] [cursor=pointer]:
+              - generic [ref=f3e154]: Speckled
+            - button "Glowing" [ref=f3e155] [cursor=pointer]:
+              - generic [ref=f3e156]: Glowing
+            - button "Green" [ref=f3e157] [cursor=pointer]:
+              - generic [ref=f3e158]: Green
+            - button "Disco" [ref=f3e159] [cursor=pointer]:
+              - generic [ref=f3e160]: Disco
+            - button "Snot" [ref=f3e161] [cursor=pointer]:
+              - generic [ref=f3e162]: Snot
+            - button "Swamp Gas" [ref=f3e163] [cursor=pointer]:
+              - generic [ref=f3e164]: Swamp Gas
+            - button "Zombie" [ref=f3e165] [cursor=pointer]:
+              - generic [ref=f3e166]: Zombie
+            - button "Transparent" [ref=f3e167] [cursor=pointer]:
+              - generic [ref=f3e168]: Transparent
+            - button "Silver" [ref=f3e169] [cursor=pointer]:
+              - generic [ref=f3e170]: Silver
+            - button "Sketch" [ref=f3e171] [cursor=pointer]:
+              - generic [ref=f3e172]: Sketch
+            - button "Snow" [ref=f3e173] [cursor=pointer]:
+              - generic [ref=f3e174]: Snow
+            - button "Island" [ref=f3e175] [cursor=pointer]:
+              - generic [ref=f3e176]: Island
+            - button "White" [ref=f3e177] [cursor=pointer]:
+              - generic [ref=f3e178]: White
+            - button "Christmas" [ref=f3e179] [cursor=pointer]:
+              - generic [ref=f3e180]: Christmas
+            - button "Robot" [ref=f3e181] [cursor=pointer]:
+              - generic [ref=f3e182]: Robot
+            - button "Royal Boy" [ref=f3e183] [cursor=pointer]:
+              - generic [ref=f3e184]: Royal Boy
+            - button "Garlic" [ref=f3e185] [cursor=pointer]:
+              - generic [ref=f3e186]: Garlic
+            - button "Custard" [ref=f3e187] [cursor=pointer]:
+              - generic [ref=f3e188]: Custard
+            - button "Sponge" [ref=f3e189] [cursor=pointer]:
+              - generic [ref=f3e190]: Sponge
+            - button "Candy" [ref=f3e191] [cursor=pointer]:
+              - generic [ref=f3e192]: Candy
+            - button "Royal Girl" [ref=f3e193] [cursor=pointer]:
+              - generic [ref=f3e194]: Royal Girl
+            - button "Plushie" [ref=f3e195] [cursor=pointer]:
+              - generic [ref=f3e196]: Plushie
+            - button "Pink" [ref=f3e197] [cursor=pointer]:
+              - generic [ref=f3e198]: Pink
+            - button "Cloud" [ref=f3e199] [cursor=pointer]:
+              - generic [ref=f3e200]: Cloud
+            - button "Striped" [ref=f3e201] [cursor=pointer]:
+              - generic [ref=f3e202]: Striped
+            - button "Pastel" [ref=f3e203] [cursor=pointer]:
+              - generic [ref=f3e204]: Pastel
+            - button "Baby" [ref=f3e205] [cursor=pointer]:
+              - generic [ref=f3e206]: Baby
+            - button "Toy" [ref=f3e207] [cursor=pointer]:
+              - generic [ref=f3e208]: Toy
+            - button "Ghost" [ref=f3e209] [cursor=pointer]:
+              - generic [ref=f3e210]: Ghost
+            - button "Marble" [ref=f3e211] [cursor=pointer]:
+              - generic [ref=f3e212]: Marble
+            - button "Mosaic" [ref=f3e213] [cursor=pointer]:
+              - generic [ref=f3e214]: Mosaic
+            - button "Eventide" [ref=f3e215] [cursor=pointer]:
+              - generic [ref=f3e216]: Eventide
+            - button "Rainbow" [ref=f3e217] [cursor=pointer]:
+              - generic [ref=f3e218]: Rainbow
+            - button "Strawberry" [ref=f3e219] [cursor=pointer]:
+              - generic [ref=f3e220]: Strawberry
+            - button "Checkered" [ref=f3e221] [cursor=pointer]:
+              - generic [ref=f3e222]: Checkered
+      - button "?" [ref=f3e39] [cursor=pointer]:
+        - generic [ref=f3e40]: "?"
+      - button "?" [ref=f3e42] [cursor=pointer]:
+        - generic [ref=f3e43]: "?"
+      - button "?" [ref=f3e45] [cursor=pointer]:
+        - generic [ref=f3e46]: "?"
+      - button "?" [ref=f3e48] [cursor=pointer]:
+        - generic [ref=f3e49]: "?"
+      - button "?" [ref=f3e51] [cursor=pointer]:
+        - generic [ref=f3e52]: "?"
+      - button "?" [ref=f3e54] [cursor=pointer]:
+        - generic [ref=f3e55]: "?"
+      - button "?" [ref=f3e57] [cursor=pointer]:
+        - generic [ref=f3e58]: "?"
+      - button "?" [ref=f3e60] [cursor=pointer]:
+        - generic [ref=f3e61]: "?"
+      - button "?" [ref=f3e63] [cursor=pointer]:
+        - generic [ref=f3e64]: "?"
+      - button "?" [ref=f3e66] [cursor=pointer]:
+        - generic [ref=f3e67]: "?"
+      - button "?" [ref=f3e69] [cursor=pointer]:
+        - generic [ref=f3e70]: "?"
+      - button "?" [ref=f3e72] [cursor=pointer]:
+        - generic [ref=f3e73]: "?"
+      - button "?" [ref=f3e75] [cursor=pointer]:
+        - generic [ref=f3e76]: "?"
+      - button "?" [ref=f3e78] [cursor=pointer]:
+        - generic [ref=f3e79]: "?"
+      - button "?" [ref=f3e81] [cursor=pointer]:
+        - generic [ref=f3e82]: "?"
+  - contentinfo [ref=f3e21]: Kiko images from Neopets · game data from Jellyneo · a marking aid, not affiliated

@@ -75,7 +75,7 @@ export default function KikoCell({ value, showImage, onChange }: Props) {
             <span className="cell-name">{selected.name}</span>
           </>
         ) : (
-          <span className="cell-placeholder">—</span>
+          <span className="cell-placeholder">?</span>
         )}
       </button>
 
