@@ -7,7 +7,7 @@ export type BoardSize = { label: string; cols: number; rows: number };
 export const BOARD_SIZES: BoardSize[] = [
   { label: "4x4", cols: 4, rows: 4 },
   { label: "4x5", cols: 5, rows: 4 },
-  { label: "5x6", cols: 6, rows: 5 },
+  { label: "5x6", cols: 5, rows: 6 },
   { label: "6x6", cols: 6, rows: 6 },
 ];
 
